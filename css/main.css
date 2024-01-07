@@ -1,0 +1,37 @@
+
+:root{
+    --green:rgb(39, 155, 54);
+    --pink:#e5345b;
+}
+
+body{
+    /*Agregar fuente*/
+}
+
+.text-success{
+    color: var(--green) !important;
+}
+
+.bg-primary{
+    background-color: var(--pink) !important;
+}
+
+/*NavBar*/
+.navbar-brand span{
+    letter-spacing: 2px;
+}
+
+.nav-link:hover{
+    color:var(--green) !important;
+}
+
+.nav-item{
+    border-bottom: 0.5px solid var(--green);
+}
+
+/*media queries*/
+@media(min-width:992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}

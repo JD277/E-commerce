@@ -12,9 +12,82 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <!-- Bootstrap -->
+
+    <!--Main css-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Main css-->
 </head>
 <body>
     <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-2 fixed-top">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand text-success 
+            d-flex justify-content-between aling-items-center order-lg-0">
+
+                <!--LOGO IMG OF ECO-->
+                <!--<img src="" alt="ECO">-->
+                <span class="fw-lighter ms-2 h2">ECO</span>
+            </a>
+            <!--Icons-->
+            <div class="order-lg-2">
+                <!--SHOPPING CART-->
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart "></i>
+                    <span class="position-absolute top-0 start-100 
+                    translate-middle badge bg-primary">5</span>
+                </button>
+
+                <!--fAVORITES-->
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart "></i>
+                    <span class="position-absolute top-0 start-100 
+                    translate-middle badge bg-primary">6</span>
+                </button>
+
+                <!--SEARCH-->
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search "></i>
+                </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center fw-bold">
+                    <!--navitems-->
+                   <li class="nav-item px-2 py-2">
+                        <a href="#header" class="nav-link text-uppercase text-dark">home</a>
+                   </li> 
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="#collection" class="nav-link text-uppercase text-dark">collection</a>
+                    </li>
+                    
+                    <li class="nav-item px-2 py-2">
+                        <a href="#specials" class="nav-link text-uppercase text-dark">specials</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="#printers" class="nav-link text-uppercase text-dark">3D printers</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2">
+                        <a href="#about" class="nav-link text-uppercase text-dark">about us</a>
+                    </li>
+
+                    <li class="nav-item px-2 py-2 border-0">
+                        <a href="#popular" class="nav-link text-uppercase text-dark">popular</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!--Icons end-->
+
+        </div>
+    </nav>
     <!--navbar end-->
     
     <!--Jquery-->
