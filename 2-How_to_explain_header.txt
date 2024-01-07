@@ -3,4 +3,5 @@
 3- h-100
 4- Carousel-item 
 5- Active
-6- Carousel-control-
+6- Carousel-control-prev
+6- Carousel-control-next
