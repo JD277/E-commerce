@@ -19,20 +19,20 @@
 </head>
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-2 fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light shadow py-2 fixed-top" id="navbar">
         <div class="container-fluid">
             <a href="index.html" class="navbar-brand text-success 
-            d-flex justify-content-between aling-items-center order-lg-0">
+            d-flex justify-content-between align-items-center order-lg-0">
 
                 <!--LOGO IMG OF ECO-->
                 <!--<img src="" alt="ECO">-->
-                <span class="fw-lighter ms-2 h2">ECO</span>
+                <span class="fw-bold ms-2 h2">ECO</span>
             </a>
             <!--Icons-->
-            <div class="order-lg-2">
+            <div class="order-lg-2 nav-btns">
                 <!--SHOPPING CART-->
                 <button type="button" class="btn position-relative">
-                    <i class="fa fa-shopping-cart "></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
                     <span class="position-absolute top-0 start-100 
                     translate-middle badge bg-primary">5</span>
                 </button>
@@ -58,27 +58,27 @@
                 <ul class="navbar-nav mx-auto text-center fw-bold">
                     <!--navitems-->
                    <li class="nav-item px-2 py-2">
-                        <a href="#header" class="nav-link text-uppercase text-dark">home</a>
+                        <a href="#header" class="nav-link text-uppercase text-white">home</a>
                    </li> 
 
                     <li class="nav-item px-2 py-2">
-                        <a href="#collection" class="nav-link text-uppercase text-dark">collection</a>
+                        <a href="#collection" class="nav-link text-uppercase text-white">collection</a>
                     </li>
                     
                     <li class="nav-item px-2 py-2">
-                        <a href="#specials" class="nav-link text-uppercase text-dark">specials</a>
+                        <a href="#specials" class="nav-link text-uppercase text-white">specials</a>
                     </li>
 
                     <li class="nav-item px-2 py-2">
-                        <a href="#printers" class="nav-link text-uppercase text-dark">3D printers</a>
+                        <a href="#printers" class="nav-link text-uppercase text-white">3D printers</a>
                     </li>
 
                     <li class="nav-item px-2 py-2">
-                        <a href="#about" class="nav-link text-uppercase text-dark">about us</a>
+                        <a href="#about" class="nav-link text-uppercase text-white">about us</a>
                     </li>
 
                     <li class="nav-item px-2 py-2 border-0">
-                        <a href="#popular" class="nav-link text-uppercase text-dark">popular</a>
+                        <a href="#popular" class="nav-link text-uppercase text-white">popular</a>
                     </li>
                 </ul>
             </div>
@@ -90,6 +90,37 @@
     </nav>
     <!--navbar end-->
     
+    <!--Header-->
+    <header id="header" class="vh-100 carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="container h-100 d-flex align-items-center carousel-inner">
+            <!--Header sec 1-->
+            <div class="text-center carousel-item active">
+                <h2 class="text-capitalize text-white">Best collection</h2>
+                <h1 class="py-3 text-uppercase fw-bold text-white">new prints avilable</h1>
+                <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+            </div>
+
+            <!--Header sec 2-->
+            <div class="text-center carousel-item">
+                <h2 class="text-capitalize text-white">quality & durability </h2>
+                <h1 class="py-3 text-uppercase fw-bold text-white">new offers</h1>
+                <a href="#" class="btn mt-3 text-uppercase">buy now</a>
+            </div>
+        </div>
+
+        <!--Carousel buttons-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!--Header end-->
+
+
+    
+
     <!--Jquery-->
     <script src="js/jquery-3.7.1.js"></script>
     <!--Jquery-->

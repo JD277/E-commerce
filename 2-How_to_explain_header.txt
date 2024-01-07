@@ -1,0 +1,6 @@
+1- Carousel y slide
+2- Carousel-inner
+3- h-100
+4- Carousel-item 
+5- Active
+6- Carousel-control-
