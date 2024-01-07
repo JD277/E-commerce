@@ -1,0 +1,23 @@
+1- Añadir links del css y el JS
+
+2- Descargar la versión sin comprimir de jquery
+
+3- Descargar Bootstrap
+
+4- etiqueta nav 
+    -navbar (Componente)
+    -navbar-expand-lg (mantiene a la navbar en todo tamaño)
+    -navbar-light (coloca la nav de un todo claro)
+    -shadow (establece una sombra regular)
+    -py (padding arriba y abajo)
+    -fixed-top (coloca la nav fija arriba)
+
+5- Navbrand (logo e imagen)
+
+6- Icons
+
+7- nav-toggler (menu hamburguesa)
+
+8- navbar-collapse
+
+9- 
