@@ -13,18 +13,20 @@ body{
 }
 
 /*buttons*/
-.btn:not(.nav-btns button){
+.btn:not(.nav-btns button):hover{
     background-color: var(--green);
     color: white;
-    padding: 10px 28px;
-    border-radius: 25px;
+    border-color: var(--green);
+
     transition: 0.5S;
 }
-.btn:not(.nav-btns button):hover{
+.btn:not(.nav-btns button){
     background-color: white;
-    border-color: white;
     color: black;
+    border: 2px solid gray;
     transition: 0.5S;
+    padding: 10px 28px;
+    border-radius: 25px;
 }
 .bg-primary{
     background-color: var(--pink) !important;
@@ -58,6 +60,33 @@ nav{
 
 .carousel-inner h1{
     font-size: 60px;
+}
+/* title */
+.title h2::before{
+    position: relative;
+    content: ".";
+    color: var(--green);
+    width: 4px;
+    height: 50px;
+    background-color: var(--green);
+    left: -20px;
+
+}
+/* Collections */
+.active-filter-btn{
+    background-color: var(--green) !important;
+    color: white !important;
+    border-color: var(--green) !important;
+
+    transition: 0.5S;
+}
+
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
 }
 /*media queries*/
 @media(min-width:992px){
