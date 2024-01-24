@@ -31,7 +31,14 @@ body{
 .bg-primary{
     background-color: var(--pink) !important;
 }
+.bg-green1{
+    background-color: var(--green);
+}
 
+/*Text color*/
+.text-primary{
+    color: var(--green) !important;
+}
 /*NavBar*/
 nav{
     transition: 0.5s;
@@ -80,6 +87,8 @@ nav{
 
     transition: 0.5S;
 }
+
+
 
 .collection-img span{
     top: 20px;
